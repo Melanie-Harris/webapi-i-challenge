@@ -105,7 +105,7 @@ server.put("/api/users/:id", (req, res) => {
       })
     }
 
-})
+}) 
 
 const port= 8001; //3)server will listen on this port
 server.listen(port, ()=> console.log('\n, hey beautiful, api is running\n'));
